@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F15F7782286588E004B473D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7772286588E004B473D /* AppDelegate.swift */; };
+		1F15F77A2286588E004B473D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7792286588E004B473D /* ViewController.swift */; };
+		1F15F77D2286588E004B473D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F77B2286588E004B473D /* Main.storyboard */; };
+		1F15F77F2286588F004B473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F77E2286588F004B473D /* Assets.xcassets */; };
+		1F15F7822286588F004B473D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7802286588F004B473D /* LaunchScreen.storyboard */; };
+		1F15F78D2286588F004B473D /* KMHTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */; };
+		1F15F79822865890004B473D /* KMHTimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */; };
+		1F15F79D22865890004B473D /* KMHTimeTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F15F79C22865890004B473D /* KMHTimeTracker WatchKit App.app */; };
+		1F15F7A322865890004B473D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7A122865890004B473D /* Interface.storyboard */; };
+		1F15F7A522865890004B473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7A422865890004B473D /* Assets.xcassets */; };
+		1F15F7AC22865890004B473D /* KMHTimeTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F15F7AB22865890004B473D /* KMHTimeTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F15F7B122865890004B473D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B022865890004B473D /* InterfaceController.swift */; };
+		1F15F7B322865890004B473D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B222865890004B473D /* ExtensionDelegate.swift */; };
+		1F15F7B522865890004B473D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B422865890004B473D /* NotificationController.swift */; };
+		1F15F7B722865890004B473D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B622865890004B473D /* ComplicationController.swift */; };
+		1F15F7B922865891004B473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7B822865891004B473D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F15F7892286588F004B473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F15F76C2286588E004B473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F15F7732286588E004B473D;
+			remoteInfo = KMHTimeTracker;
+		};
+		1F15F79422865890004B473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F15F76C2286588E004B473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F15F7732286588E004B473D;
+			remoteInfo = KMHTimeTracker;
+		};
+		1F15F79E22865890004B473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F15F76C2286588E004B473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F15F79B22865890004B473D;
+			remoteInfo = "KMHTimeTracker WatchKit App";
+		};
+		1F15F7AD22865890004B473D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F15F76C2286588E004B473D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F15F7AA22865890004B473D;
+			remoteInfo = "KMHTimeTracker WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F15F7C122865891004B473D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F15F7AC22865890004B473D /* KMHTimeTracker WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7C522865891004B473D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F15F79D22865890004B473D /* KMHTimeTracker WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F15F7742286588E004B473D /* KMHTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMHTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F15F7772286588E004B473D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F15F7792286588E004B473D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F15F77C2286588E004B473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F15F77E2286588F004B473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F15F7812286588F004B473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F15F7832286588F004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F15F7882286588F004B473D /* KMHTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMHTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMHTimeTrackerTests.swift; sourceTree = "<group>"; };
+		1F15F78E2286588F004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F15F79322865890004B473D /* KMHTimeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMHTimeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMHTimeTrackerUITests.swift; sourceTree = "<group>"; };
+		1F15F79922865890004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F15F79C22865890004B473D /* KMHTimeTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KMHTimeTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F15F7A222865890004B473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1F15F7A422865890004B473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F15F7A622865890004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F15F7AB22865890004B473D /* KMHTimeTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KMHTimeTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F15F7B022865890004B473D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1F15F7B222865890004B473D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1F15F7B422865890004B473D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1F15F7B622865890004B473D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		1F15F7B822865891004B473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F15F7BA22865891004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F15F7BB22865891004B473D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F15F7712286588E004B473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7852286588F004B473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F79022865890004B473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7A822865890004B473D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F15F76B2286588E004B473D = {
+			isa = PBXGroup;
+			children = (
+				1F15F7762286588E004B473D /* KMHTimeTracker */,
+				1F15F78B2286588F004B473D /* KMHTimeTrackerTests */,
+				1F15F79622865890004B473D /* KMHTimeTrackerUITests */,
+				1F15F7A022865890004B473D /* KMHTimeTracker WatchKit App */,
+				1F15F7AF22865890004B473D /* KMHTimeTracker WatchKit Extension */,
+				1F15F7752286588E004B473D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F15F7752286588E004B473D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7742286588E004B473D /* KMHTimeTracker.app */,
+				1F15F7882286588F004B473D /* KMHTimeTrackerTests.xctest */,
+				1F15F79322865890004B473D /* KMHTimeTrackerUITests.xctest */,
+				1F15F79C22865890004B473D /* KMHTimeTracker WatchKit App.app */,
+				1F15F7AB22865890004B473D /* KMHTimeTracker WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F15F7762286588E004B473D /* KMHTimeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7772286588E004B473D /* AppDelegate.swift */,
+				1F15F7792286588E004B473D /* ViewController.swift */,
+				1F15F77B2286588E004B473D /* Main.storyboard */,
+				1F15F77E2286588F004B473D /* Assets.xcassets */,
+				1F15F7802286588F004B473D /* LaunchScreen.storyboard */,
+				1F15F7832286588F004B473D /* Info.plist */,
+			);
+			path = KMHTimeTracker;
+			sourceTree = "<group>";
+		};
+		1F15F78B2286588F004B473D /* KMHTimeTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */,
+				1F15F78E2286588F004B473D /* Info.plist */,
+			);
+			path = KMHTimeTrackerTests;
+			sourceTree = "<group>";
+		};
+		1F15F79622865890004B473D /* KMHTimeTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */,
+				1F15F79922865890004B473D /* Info.plist */,
+			);
+			path = KMHTimeTrackerUITests;
+			sourceTree = "<group>";
+		};
+		1F15F7A022865890004B473D /* KMHTimeTracker WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7A122865890004B473D /* Interface.storyboard */,
+				1F15F7A422865890004B473D /* Assets.xcassets */,
+				1F15F7A622865890004B473D /* Info.plist */,
+			);
+			path = "KMHTimeTracker WatchKit App";
+			sourceTree = "<group>";
+		};
+		1F15F7AF22865890004B473D /* KMHTimeTracker WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7B022865890004B473D /* InterfaceController.swift */,
+				1F15F7B222865890004B473D /* ExtensionDelegate.swift */,
+				1F15F7B422865890004B473D /* NotificationController.swift */,
+				1F15F7B622865890004B473D /* ComplicationController.swift */,
+				1F15F7B822865891004B473D /* Assets.xcassets */,
+				1F15F7BA22865891004B473D /* Info.plist */,
+				1F15F7BB22865891004B473D /* PushNotificationPayload.apns */,
+			);
+			path = "KMHTimeTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F15F7732286588E004B473D /* KMHTimeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F15F7C622865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTracker" */;
+			buildPhases = (
+				1F15F7702286588E004B473D /* Sources */,
+				1F15F7712286588E004B473D /* Frameworks */,
+				1F15F7722286588E004B473D /* Resources */,
+				1F15F7C522865891004B473D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F15F79F22865890004B473D /* PBXTargetDependency */,
+			);
+			name = KMHTimeTracker;
+			productName = KMHTimeTracker;
+			productReference = 1F15F7742286588E004B473D /* KMHTimeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F15F7872286588F004B473D /* KMHTimeTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F15F7C922865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTrackerTests" */;
+			buildPhases = (
+				1F15F7842286588F004B473D /* Sources */,
+				1F15F7852286588F004B473D /* Frameworks */,
+				1F15F7862286588F004B473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F15F78A2286588F004B473D /* PBXTargetDependency */,
+			);
+			name = KMHTimeTrackerTests;
+			productName = KMHTimeTrackerTests;
+			productReference = 1F15F7882286588F004B473D /* KMHTimeTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F15F79222865890004B473D /* KMHTimeTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F15F7CC22865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTrackerUITests" */;
+			buildPhases = (
+				1F15F78F22865890004B473D /* Sources */,
+				1F15F79022865890004B473D /* Frameworks */,
+				1F15F79122865890004B473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F15F79522865890004B473D /* PBXTargetDependency */,
+			);
+			name = KMHTimeTrackerUITests;
+			productName = KMHTimeTrackerUITests;
+			productReference = 1F15F79322865890004B473D /* KMHTimeTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1F15F79B22865890004B473D /* KMHTimeTracker WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F15F7C222865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTracker WatchKit App" */;
+			buildPhases = (
+				1F15F79A22865890004B473D /* Resources */,
+				1F15F7C122865891004B473D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F15F7AE22865890004B473D /* PBXTargetDependency */,
+			);
+			name = "KMHTimeTracker WatchKit App";
+			productName = "KMHTimeTracker WatchKit App";
+			productReference = 1F15F79C22865890004B473D /* KMHTimeTracker WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1F15F7AA22865890004B473D /* KMHTimeTracker WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F15F7BE22865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTracker WatchKit Extension" */;
+			buildPhases = (
+				1F15F7A722865890004B473D /* Sources */,
+				1F15F7A822865890004B473D /* Frameworks */,
+				1F15F7A922865890004B473D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KMHTimeTracker WatchKit Extension";
+			productName = "KMHTimeTracker WatchKit Extension";
+			productReference = 1F15F7AB22865890004B473D /* KMHTimeTracker WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F15F76C2286588E004B473D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ken M. Haggerty";
+				TargetAttributes = {
+					1F15F7732286588E004B473D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1F15F7872286588F004B473D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1F15F7732286588E004B473D;
+					};
+					1F15F79222865890004B473D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1F15F7732286588E004B473D;
+					};
+					1F15F79B22865890004B473D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1F15F7AA22865890004B473D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F15F76F2286588E004B473D /* Build configuration list for PBXProject "KMHTimeTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F15F76B2286588E004B473D;
+			productRefGroup = 1F15F7752286588E004B473D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F15F7732286588E004B473D /* KMHTimeTracker */,
+				1F15F7872286588F004B473D /* KMHTimeTrackerTests */,
+				1F15F79222865890004B473D /* KMHTimeTrackerUITests */,
+				1F15F79B22865890004B473D /* KMHTimeTracker WatchKit App */,
+				1F15F7AA22865890004B473D /* KMHTimeTracker WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F15F7722286588E004B473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F7822286588F004B473D /* LaunchScreen.storyboard in Resources */,
+				1F15F77F2286588F004B473D /* Assets.xcassets in Resources */,
+				1F15F77D2286588E004B473D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7862286588F004B473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F79122865890004B473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F79A22865890004B473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F7A522865890004B473D /* Assets.xcassets in Resources */,
+				1F15F7A322865890004B473D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7A922865890004B473D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F7B922865891004B473D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F15F7702286588E004B473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F77A2286588E004B473D /* ViewController.swift in Sources */,
+				1F15F7782286588E004B473D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7842286588F004B473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F78D2286588F004B473D /* KMHTimeTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F78F22865890004B473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F79822865890004B473D /* KMHTimeTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F15F7A722865890004B473D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F15F7B522865890004B473D /* NotificationController.swift in Sources */,
+				1F15F7B722865890004B473D /* ComplicationController.swift in Sources */,
+				1F15F7B322865890004B473D /* ExtensionDelegate.swift in Sources */,
+				1F15F7B122865890004B473D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F15F78A2286588F004B473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F15F7732286588E004B473D /* KMHTimeTracker */;
+			targetProxy = 1F15F7892286588F004B473D /* PBXContainerItemProxy */;
+		};
+		1F15F79522865890004B473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F15F7732286588E004B473D /* KMHTimeTracker */;
+			targetProxy = 1F15F79422865890004B473D /* PBXContainerItemProxy */;
+		};
+		1F15F79F22865890004B473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F15F79B22865890004B473D /* KMHTimeTracker WatchKit App */;
+			targetProxy = 1F15F79E22865890004B473D /* PBXContainerItemProxy */;
+		};
+		1F15F7AE22865890004B473D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F15F7AA22865890004B473D /* KMHTimeTracker WatchKit Extension */;
+			targetProxy = 1F15F7AD22865890004B473D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F15F77B2286588E004B473D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F15F77C2286588E004B473D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F15F7802286588F004B473D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F15F7812286588F004B473D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F15F7A122865890004B473D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F15F7A222865890004B473D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F15F7BC22865891004B473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F15F7BD22865891004B473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F15F7BF22865891004B473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		1F15F7C022865891004B473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		1F15F7C322865891004B473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = KMHTimeTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		1F15F7C422865891004B473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = KMHTimeTracker_WatchKit_Extension;
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		1F15F7C722865891004B473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMHTimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F15F7C822865891004B473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMHTimeTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F15F7CA22865891004B473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMHTimeTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMHTimeTracker.app/KMHTimeTracker";
+			};
+			name = Debug;
+		};
+		1F15F7CB22865891004B473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMHTimeTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMHTimeTracker.app/KMHTimeTracker";
+			};
+			name = Release;
+		};
+		1F15F7CD22865891004B473D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMHTimeTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMHTimeTracker;
+			};
+			name = Debug;
+		};
+		1F15F7CE22865891004B473D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMHTimeTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMHTimeTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F15F76F2286588E004B473D /* Build configuration list for PBXProject "KMHTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F15F7BC22865891004B473D /* Debug */,
+				1F15F7BD22865891004B473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F15F7BE22865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTracker WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F15F7BF22865891004B473D /* Debug */,
+				1F15F7C022865891004B473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F15F7C222865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTracker WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F15F7C322865891004B473D /* Debug */,
+				1F15F7C422865891004B473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F15F7C622865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F15F7C722865891004B473D /* Debug */,
+				1F15F7C822865891004B473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F15F7C922865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F15F7CA22865891004B473D /* Debug */,
+				1F15F7CB22865891004B473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F15F7CC22865891004B473D /* Build configuration list for PBXNativeTarget "KMHTimeTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F15F7CD22865891004B473D /* Debug */,
+				1F15F7CE22865891004B473D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F15F76C2286588E004B473D /* Project object */;
+}
