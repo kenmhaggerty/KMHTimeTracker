@@ -9,13 +9,10 @@
 /* Begin PBXBuildFile section */
 		1F15F7782286588E004B473D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7772286588E004B473D /* AppDelegate.swift */; };
 		1F15F77A2286588E004B473D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7792286588E004B473D /* ViewController.swift */; };
-		1F15F77D2286588E004B473D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F77B2286588E004B473D /* Main.storyboard */; };
 		1F15F77F2286588F004B473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F77E2286588F004B473D /* Assets.xcassets */; };
-		1F15F7822286588F004B473D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7802286588F004B473D /* LaunchScreen.storyboard */; };
 		1F15F78D2286588F004B473D /* KMHTimeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */; };
 		1F15F79822865890004B473D /* KMHTimeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */; };
 		1F15F79D22865890004B473D /* KMHTimeTracker WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F15F79C22865890004B473D /* KMHTimeTracker WatchKit App.app */; };
-		1F15F7A322865890004B473D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7A122865890004B473D /* Interface.storyboard */; };
 		1F15F7A522865890004B473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7A422865890004B473D /* Assets.xcassets */; };
 		1F15F7AC22865890004B473D /* KMHTimeTracker WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F15F7AB22865890004B473D /* KMHTimeTracker WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		1F15F7B122865890004B473D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B022865890004B473D /* InterfaceController.swift */; };
@@ -23,6 +20,9 @@
 		1F15F7B522865890004B473D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B422865890004B473D /* NotificationController.swift */; };
 		1F15F7B722865890004B473D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F15F7B622865890004B473D /* ComplicationController.swift */; };
 		1F15F7B922865891004B473D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7B822865891004B473D /* Assets.xcassets */; };
+		1F15F7D622865AC9004B473D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7D422865AC9004B473D /* LaunchScreen.storyboard */; };
+		1F15F7D722865AC9004B473D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7D522865AC9004B473D /* Main.storyboard */; };
+		1F15F7DC22865E0F004B473D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F15F7DB22865E0F004B473D /* Interface.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +85,7 @@
 		1F15F7742286588E004B473D /* KMHTimeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMHTimeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F15F7772286588E004B473D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F15F7792286588E004B473D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F15F77C2286588E004B473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F15F77E2286588F004B473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F15F7812286588F004B473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F15F7832286588F004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F15F7882286588F004B473D /* KMHTimeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMHTimeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMHTimeTrackerTests.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMHTimeTrackerUITests.swift; sourceTree = "<group>"; };
 		1F15F79922865890004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F15F79C22865890004B473D /* KMHTimeTracker WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KMHTimeTracker WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F15F7A222865890004B473D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1F15F7A422865890004B473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F15F7A622865890004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F15F7AB22865890004B473D /* KMHTimeTracker WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KMHTimeTracker WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +104,9 @@
 		1F15F7B822865891004B473D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F15F7BA22865891004B473D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F15F7BB22865891004B473D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1F15F7D422865AC9004B473D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F15F7D522865AC9004B473D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1F15F7DB22865E0F004B473D /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,10 +145,10 @@
 			isa = PBXGroup;
 			children = (
 				1F15F7762286588E004B473D /* KMHTimeTracker */,
-				1F15F78B2286588F004B473D /* KMHTimeTrackerTests */,
-				1F15F79622865890004B473D /* KMHTimeTrackerUITests */,
 				1F15F7A022865890004B473D /* KMHTimeTracker WatchKit App */,
 				1F15F7AF22865890004B473D /* KMHTimeTracker WatchKit Extension */,
+				1F15F78B2286588F004B473D /* KMHTimeTrackerTests */,
+				1F15F79622865890004B473D /* KMHTimeTrackerUITests */,
 				1F15F7752286588E004B473D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -168,12 +168,11 @@
 		1F15F7762286588E004B473D /* KMHTimeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				1F15F7D022865A62004B473D /* Assets */,
+				1F15F7D122865A7A004B473D /* Storyboards */,
+				1F15F7D322865A92004B473D /* View Controllers */,
+				1F15F7D222865A87004B473D /* Supporting Files */,
 				1F15F7772286588E004B473D /* AppDelegate.swift */,
-				1F15F7792286588E004B473D /* ViewController.swift */,
-				1F15F77B2286588E004B473D /* Main.storyboard */,
-				1F15F77E2286588F004B473D /* Assets.xcassets */,
-				1F15F7802286588F004B473D /* LaunchScreen.storyboard */,
-				1F15F7832286588F004B473D /* Info.plist */,
 			);
 			path = KMHTimeTracker;
 			sourceTree = "<group>";
@@ -181,8 +180,8 @@
 		1F15F78B2286588F004B473D /* KMHTimeTrackerTests */ = {
 			isa = PBXGroup;
 			children = (
-				1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */,
-				1F15F78E2286588F004B473D /* Info.plist */,
+				1F15F7E122865F1E004B473D /* Tests */,
+				1F15F7E022865F0F004B473D /* Supporting Files */,
 			);
 			path = KMHTimeTrackerTests;
 			sourceTree = "<group>";
@@ -190,8 +189,8 @@
 		1F15F79622865890004B473D /* KMHTimeTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */,
-				1F15F79922865890004B473D /* Info.plist */,
+				1F15F7E222865F28004B473D /* Tests */,
+				1F15F7E322865F33004B473D /* Supporting Files */,
 			);
 			path = KMHTimeTrackerUITests;
 			sourceTree = "<group>";
@@ -199,9 +198,9 @@
 		1F15F7A022865890004B473D /* KMHTimeTracker WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				1F15F7A122865890004B473D /* Interface.storyboard */,
-				1F15F7A422865890004B473D /* Assets.xcassets */,
-				1F15F7A622865890004B473D /* Info.plist */,
+				1F15F7D922865DE2004B473D /* Assets */,
+				1F15F7D822865DDA004B473D /* Storyboards */,
+				1F15F7DA22865DF1004B473D /* Supporting Files */,
 			);
 			path = "KMHTimeTracker WatchKit App";
 			sourceTree = "<group>";
@@ -209,15 +208,128 @@
 		1F15F7AF22865890004B473D /* KMHTimeTracker WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1F15F7B022865890004B473D /* InterfaceController.swift */,
+				1F15F7DD22865EB6004B473D /* Assets */,
+				1F15F7DF22865EF4004B473D /* View Controllers */,
+				1F15F7DE22865EC5004B473D /* Supporting Files */,
 				1F15F7B222865890004B473D /* ExtensionDelegate.swift */,
-				1F15F7B422865890004B473D /* NotificationController.swift */,
-				1F15F7B622865890004B473D /* ComplicationController.swift */,
+			);
+			path = "KMHTimeTracker WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1F15F7D022865A62004B473D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F77E2286588F004B473D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1F15F7D122865A7A004B473D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7D422865AC9004B473D /* LaunchScreen.storyboard */,
+				1F15F7D522865AC9004B473D /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F15F7D222865A87004B473D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7832286588F004B473D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F15F7D322865A92004B473D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7792286588E004B473D /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1F15F7D822865DDA004B473D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7DB22865E0F004B473D /* Interface.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F15F7D922865DE2004B473D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7A422865890004B473D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1F15F7DA22865DF1004B473D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7A622865890004B473D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F15F7DD22865EB6004B473D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				1F15F7B822865891004B473D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1F15F7DE22865EC5004B473D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				1F15F7BA22865891004B473D /* Info.plist */,
 				1F15F7BB22865891004B473D /* PushNotificationPayload.apns */,
 			);
-			path = "KMHTimeTracker WatchKit Extension";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F15F7DF22865EF4004B473D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F7B022865890004B473D /* InterfaceController.swift */,
+				1F15F7B422865890004B473D /* NotificationController.swift */,
+				1F15F7B622865890004B473D /* ComplicationController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		1F15F7E022865F0F004B473D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F78E2286588F004B473D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F15F7E122865F1E004B473D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F78C2286588F004B473D /* KMHTimeTrackerTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1F15F7E222865F28004B473D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F79722865890004B473D /* KMHTimeTrackerUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		1F15F7E322865F33004B473D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F15F79922865890004B473D /* Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,9 +480,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F15F7822286588F004B473D /* LaunchScreen.storyboard in Resources */,
+				1F15F7D722865AC9004B473D /* Main.storyboard in Resources */,
 				1F15F77F2286588F004B473D /* Assets.xcassets in Resources */,
-				1F15F77D2286588E004B473D /* Main.storyboard in Resources */,
+				1F15F7D622865AC9004B473D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,8 +504,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F15F7DC22865E0F004B473D /* Interface.storyboard in Resources */,
 				1F15F7A522865890004B473D /* Assets.xcassets in Resources */,
-				1F15F7A322865890004B473D /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,33 +580,6 @@
 			targetProxy = 1F15F7AD22865890004B473D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1F15F77B2286588E004B473D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F15F77C2286588E004B473D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1F15F7802286588F004B473D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F15F7812286588F004B473D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1F15F7A122865890004B473D /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F15F7A222865890004B473D /* Base */,
-			);
-			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1F15F7BC22865891004B473D /* Debug */ = {
@@ -618,7 +703,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "KMHTimeTracker WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit Extension/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,7 +724,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "KMHTimeTracker WatchKit Extension/Info.plist";
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit Extension/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -662,7 +747,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = KMHTimeTracker_WatchKit_Extension;
-				INFOPLIST_FILE = "KMHTimeTracker WatchKit App/Info.plist";
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit App/Supporting Files/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -680,7 +765,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				IBSC_MODULE = KMHTimeTracker_WatchKit_Extension;
-				INFOPLIST_FILE = "KMHTimeTracker WatchKit App/Info.plist";
+				INFOPLIST_FILE = "KMHTimeTracker WatchKit App/Supporting Files/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eurekavalleyco.watchOS.KMHTimeTracker.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
@@ -696,7 +781,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMHTimeTracker/Info.plist;
+				INFOPLIST_FILE = "KMHTimeTracker/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -713,7 +798,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMHTimeTracker/Info.plist;
+				INFOPLIST_FILE = "KMHTimeTracker/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -731,7 +816,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMHTimeTrackerTests/Info.plist;
+				INFOPLIST_FILE = "KMHTimeTrackerTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -751,7 +836,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMHTimeTrackerTests/Info.plist;
+				INFOPLIST_FILE = "KMHTimeTrackerTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -770,7 +855,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMHTimeTrackerUITests/Info.plist;
+				INFOPLIST_FILE = "KMHTimeTrackerUITests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -789,7 +874,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMHTimeTrackerUITests/Info.plist;
+				INFOPLIST_FILE = "KMHTimeTrackerUITests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
