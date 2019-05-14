@@ -165,7 +165,7 @@ def generateChildren(node, source):
 
 ### Regexes
 
-PBXBuildFileSectionLineRegex = r"(^|\n)(\s*(\w*)\s*(\/\*\s*[^(\*\/)]*\s*\*\/){0,1}\s*={0,1}\s*(\{[^\}]*\}){0,1}\s*;)"
+PBXBuildFileSectionLineRegex = r"(^|\n)(\s*(\w*)\s*(\/\*\s*[^(\*\/)]*\s*\*\/)?\s*=?\s*(\{.*\})?\s*;)"
 # 1 = (start of file / newline)
 # 2 = (value)
 # 3 = PBXBuildFile ID
