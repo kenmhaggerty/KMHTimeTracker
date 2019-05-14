@@ -343,6 +343,7 @@
 				1F15F7712286588E004B473D /* Frameworks */,
 				1F15F7722286588E004B473D /* Resources */,
 				1F15F7C522865891004B473D /* Embed Watch Content */,
+				1F15F7F5228AD1CE004B473D /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -518,6 +519,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F15F7F5228AD1CE004B473D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python pbxproj_organizer.py\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F15F7702286588E004B473D /* Sources */ = {
